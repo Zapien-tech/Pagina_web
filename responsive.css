@@ -1,15 +1,53 @@
-@media screen and(max-width:){
-    
+@media screen and(max-width: 1280px){
+    .img-cent {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        /* border: 1px solid black; */
+        width: 100%;
+        min-height: 350px;
+        padding: .2rem 0;
+      }
 }
 
-@media screen {
-    
+@media screen and (max-width:800px){
+
+        
+    .logo{
+        display: flex;
+        flex-basis: 100px;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .img-cent {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        min-height: 350px;
+        padding: .1rem 0;
+      }
+      .noticias {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        background-color: lightcyan;
+      }
 }
 
-@media screen {
-    
+@media screen and (max-width:650px){
+    .resultados {
+        /* border: 3px dotted brown; */
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-;
+        background-image: url(https://www.ecestaticos.com/imagestatic/clipping/1f3/624/1f36248dfe97f605baeb2c4083e5eff4/hemos-preguntado-a-mikasa-por-que-son-tan-duros-sus-balones-y-ya-sabemos-su-secreto.jpg?mtime=1622709457);
+        height: auto;
+      }
 }
 
-@media screen {
-    
-}
